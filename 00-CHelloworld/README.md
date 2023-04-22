@@ -16,10 +16,16 @@ output.txt; verifique su contenido.
 
 **Resolución**
 1. El compilador utilizado es [MinGW](https://www.msys2.org/)
-2. El código del programa hello.c se detalla a continuación y fue probado, compilandolo con 
-´codigo´
+2. El código del programa hello.c se detalla a continuación y fue probado, compilandolo con `gcc -o hello.exe hello.c` 
+
 ```
-var sumar2 = function(numero) {
-  return numero + 2;
+//HOLA MUNDO
+#include <stdio.h>
+
+int main(){
+printf("Hola Mundo!\n");
+return 0;
 }
 ```
+3. Para ejecutar el programa se utiliza `./hello` y la salida esperada fue **Hola Mundo!**
+4. Para este paso se utiliza `./hello > output.txt` lo cual me genera un archivo txt de nombre **output** donde dentro de ese archivo se encuentra nuestro **Hola Mundo!**
