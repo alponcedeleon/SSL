@@ -4,7 +4,7 @@
 **Apellido:** Ponce de León <br>
 **Nombre:** Alejo Gabriel <br>
 **Usuario:** [alponcedeleon](https://github.com/alponcedeleon/SSL) <br>
-## Trabajo N° 0 - "Hello,World!" en C - Resolución
+## Trabajo N° 0 - "Hello,World!" en C 
 **Enunciado** 
 
 1. Indique en el readme.md el compilador seleccionado.
